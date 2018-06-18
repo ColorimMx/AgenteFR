@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A3D0A8E2-87AF-4D16-B8CF-144553C4ECDD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>AgenteFR.My.MyApplication</StartupObject>
+    <RootNamespace>AgenteFR</RootNamespace>
+    <AssemblyName>AgenteFR</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>AgenteFR.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>AgenteFR.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Images\Mariposa.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\Cobranza\CobDetCli.Designer.vb">
+      <DependentUpon>CobDetCli.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cobranza\CobDetCli.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cobranza\CobDetForPag.Designer.vb">
+      <DependentUpon>CobDetForPag.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cobranza\CobDetForPag.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cobranza\CobDetOri.Designer.vb">
+      <DependentUpon>CobDetOri.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cobranza\CobDetOri.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cobranza\CobDetPri.Designer.vb">
+      <DependentUpon>CobDetPri.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cobranza\CobDetPri.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cobranza\CobGenCli.Designer.vb">
+      <DependentUpon>CobGenCli.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cobranza\CobGenCli.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cobranza\CobGenForPag.Designer.vb">
+      <DependentUpon>CobGenForPag.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cobranza\CobGenForPag.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cobranza\CobGenOri.Designer.vb">
+      <DependentUpon>CobGenOri.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cobranza\CobGenOri.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cobranza\CobGenPri.Designer.vb">
+      <DependentUpon>CobGenPri.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cobranza\CobGenPri.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cobranza\DetCli.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DetCli.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Cobranza\DetForPag.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DetForPag.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Cobranza\DetOri.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DetOri.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Cobranza\DetPri.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DetPri.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Cobranza\GenCli.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GenCli.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Cobranza\GenForPag.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GenForPag.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Cobranza\GenOri.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GenOri.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Cobranza\GenPri.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GenPri.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Inventarios\ExiCodProd.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ExiCodProd.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Inventarios\ExiGen.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ExiGen.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Inventarios\InvExiCodPro.Designer.vb">
+      <DependentUpon>InvExiCodPro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inventarios\InvExiCodPro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Inventarios\InvExiGen.Designer.vb">
+      <DependentUpon>InvExiGen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inventarios\InvExiGen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vencimientos\FrGrafCliRan.Designer.vb">
+      <DependentUpon>FrGrafCliRan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Vencimientos\FrGrafCliRan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vencimientos\FrGrafRanCli.Designer.vb">
+      <DependentUpon>FrGrafRanCli.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Vencimientos\FrGrafRanCli.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vencimientos\FrVenCliRan.Designer.vb">
+      <DependentUpon>FrVenCliRan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Vencimientos\FrVenCliRan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vencimientos\FrVenRanCli.Designer.vb">
+      <DependentUpon>FrVenRanCli.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Vencimientos\FrVenRanCli.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vencimientos\FrVenTab.Designer.vb">
+      <DependentUpon>FrVenTab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Vencimientos\FrVenTab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vencimientos\VenAgeCliRan.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VenAgeCliRan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Vencimientos\VenAgeRanCli.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VenAgeRanCli.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Vencimientos\VenGraAgeRanCli.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VenGraAgeRanCli.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Vencimientos\VenGrafAgeCliRan.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VenGrafAgeCliRan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Vencimientos\VenTab.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VenTab.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Ventas\CliFic.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CliFic.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Ventas\DetVen.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DetVen.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Ventas\EstFac.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EstFac.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Ventas\EstPed1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EstPed.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Ventas\PedDetUni.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PedDetUni.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Ventas\VenCliFic.Designer.vb">
+      <DependentUpon>VenCliFic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ventas\VenCliFic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ventas\VenDetPed.Designer.vb">
+      <DependentUpon>VenDetPed.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ventas\VenDetPed.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ventas\VenDetVen.Designer.vb">
+      <DependentUpon>VenDetVen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ventas\VenDetVen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ventas\VenEstFac.Designer.vb">
+      <DependentUpon>VenEstFac.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ventas\VenEstFac.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ventas\VenPedDetUni.Designer.vb">
+      <DependentUpon>VenPedDetUni.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ventas\VenPedDetUni.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Load.Designer.vb">
+      <DependentUpon>Load.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Load.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuR.Designer.vb">
+      <DependentUpon>MenuR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\Cobranza\CobDetCli.resx">
+      <DependentUpon>CobDetCli.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cobranza\CobDetForPag.resx">
+      <DependentUpon>CobDetForPag.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cobranza\CobDetOri.resx">
+      <DependentUpon>CobDetOri.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cobranza\CobDetPri.resx">
+      <DependentUpon>CobDetPri.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cobranza\CobGenCli.resx">
+      <DependentUpon>CobGenCli.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cobranza\CobGenForPag.resx">
+      <DependentUpon>CobGenForPag.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cobranza\CobGenOri.resx">
+      <DependentUpon>CobGenOri.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cobranza\CobGenPri.resx">
+      <DependentUpon>CobGenPri.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cobranza\DetCli.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DetCli.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cobranza\DetForPag.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DetForPag.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cobranza\DetOri.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DetOri.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cobranza\DetPri.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DetPri.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cobranza\GenCli.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>GenCli.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cobranza\GenForPag.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>GenForPag.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cobranza\GenOri.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>GenOri.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cobranza\GenPri.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>GenPri.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inventarios\ExiCodProd.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ExiCodProd.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inventarios\ExiGen.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ExiGen.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inventarios\InvExiCodPro.resx">
+      <DependentUpon>InvExiCodPro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inventarios\InvExiGen.resx">
+      <DependentUpon>InvExiGen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vencimientos\FrGrafCliRan.resx">
+      <DependentUpon>FrGrafCliRan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vencimientos\FrGrafRanCli.resx">
+      <DependentUpon>FrGrafRanCli.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vencimientos\FrVenCliRan.resx">
+      <DependentUpon>FrVenCliRan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vencimientos\FrVenRanCli.resx">
+      <DependentUpon>FrVenRanCli.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vencimientos\FrVenTab.resx">
+      <DependentUpon>FrVenTab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vencimientos\VenAgeCliRan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>VenAgeCliRan.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vencimientos\VenAgeRanCli.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>VenAgeRanCli.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vencimientos\VenGraAgeRanCli.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>VenGraAgeRanCli.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vencimientos\VenGrafAgeCliRan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>VenGrafAgeCliRan.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vencimientos\VenTab.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>VenTab.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ventas\CliFic.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CliFic.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ventas\DetVen.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DetVen.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ventas\EstFac.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EstFac.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ventas\EstPed.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EstPed1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ventas\PedDetUni.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PedDetUni.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ventas\VenCliFic.resx">
+      <DependentUpon>VenCliFic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ventas\VenDetPed.resx">
+      <DependentUpon>VenDetPed.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ventas\VenDetVen.resx">
+      <DependentUpon>VenDetVen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ventas\VenEstFac.resx">
+      <DependentUpon>VenEstFac.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ventas\VenPedDetUni.resx">
+      <DependentUpon>VenPedDetUni.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Load.resx">
+      <DependentUpon>Load.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuR.resx">
+      <DependentUpon>MenuR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\ajax-loader-blue-2.gif" />
+    <Content Include="Images\Mariposa.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
