@@ -42,6 +42,7 @@ Partial Class MenuR
         Me.VentasToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.FichaClienteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EstatusPedidosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EstatusFacturasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PedidosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FacturaciónToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VencimientosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -51,7 +52,8 @@ Partial Class MenuR
         Me.GraficaClienteRangoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.GraficaRangoClienteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EstatusFacturasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -74,13 +76,13 @@ Partial Class MenuR
         'ExistenciaGeneralToolStripMenuItem
         '
         Me.ExistenciaGeneralToolStripMenuItem.Name = "ExistenciaGeneralToolStripMenuItem"
-        Me.ExistenciaGeneralToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
+        Me.ExistenciaGeneralToolStripMenuItem.Size = New System.Drawing.Size(206, 22)
         Me.ExistenciaGeneralToolStripMenuItem.Text = "Existencia General"
         '
         'ExistenciaCodProductoToolStripMenuItem
         '
         Me.ExistenciaCodProductoToolStripMenuItem.Name = "ExistenciaCodProductoToolStripMenuItem"
-        Me.ExistenciaCodProductoToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
+        Me.ExistenciaCodProductoToolStripMenuItem.Size = New System.Drawing.Size(206, 22)
         Me.ExistenciaCodProductoToolStripMenuItem.Text = "Existencia Cod. Producto"
         '
         'CobranzaToolStripMenuItem
@@ -178,6 +180,12 @@ Partial Class MenuR
         Me.EstatusPedidosToolStripMenuItem.Size = New System.Drawing.Size(207, 22)
         Me.EstatusPedidosToolStripMenuItem.Text = "Estatus Pedidos"
         '
+        'EstatusFacturasToolStripMenuItem
+        '
+        Me.EstatusFacturasToolStripMenuItem.Name = "EstatusFacturasToolStripMenuItem"
+        Me.EstatusFacturasToolStripMenuItem.Size = New System.Drawing.Size(207, 22)
+        Me.EstatusFacturasToolStripMenuItem.Text = "Estatus Facturas"
+        '
         'PedidosToolStripMenuItem
         '
         Me.PedidosToolStripMenuItem.Name = "PedidosToolStripMenuItem"
@@ -233,18 +241,34 @@ Partial Class MenuR
         Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(41, 20)
         Me.SalirToolStripMenuItem.Text = "Salir"
         '
-        'EstatusFacturasToolStripMenuItem
+        'Label1
         '
-        Me.EstatusFacturasToolStripMenuItem.Name = "EstatusFacturasToolStripMenuItem"
-        Me.EstatusFacturasToolStripMenuItem.Size = New System.Drawing.Size(207, 22)
-        Me.EstatusFacturasToolStripMenuItem.Text = "Estatus Facturas"
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(327, 24)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(39, 13)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "Label1"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(383, 9)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(39, 13)
+        Me.Label2.TabIndex = 2
+        Me.Label2.Text = "Label2"
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'MenuR
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(434, 21)
+        Me.ClientSize = New System.Drawing.Size(434, 38)
         Me.ControlBox = False
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -253,7 +277,7 @@ Partial Class MenuR
         Me.MinimizeBox = False
         Me.Name = "MenuR"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Colorantes Importados S.A. de C.V."
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
@@ -290,4 +314,6 @@ Partial Class MenuR
     Friend WithEvents FichaClienteToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents EstatusPedidosToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents EstatusFacturasToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
 End Class

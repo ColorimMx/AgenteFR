@@ -1,7 +1,11 @@
 ﻿Public Class MenuR
 
     Private Sub MenuR_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-
+        Dim usuario = Environment.UserName
+        Dim fr As New clsUsuarios
+        fr.obtFor(usuario)
+        Me.Label1.Text = usuario
+        Me.Label2.Text = Module1.agente
     End Sub
 
     Private Sub SalirToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SalirToolStripMenuItem.Click
@@ -137,4 +141,6 @@
         a.Show()
         Me.FindForm()
     End Sub
+
+
 End Class

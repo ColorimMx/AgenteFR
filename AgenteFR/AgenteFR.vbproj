@@ -82,6 +82,7 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clsUsuarios.vb" />
     <Compile Include="Forms\Cobranza\CobDetCli.Designer.vb">
       <DependentUpon>CobDetCli.vb</DependentUpon>
     </Compile>
