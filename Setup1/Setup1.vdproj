@@ -15,12 +15,6 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_07214FA7B0BC1A67B5D91BE295145389"
-        "OwnerKey" = "8:_6B64740B85284CA89D516BA2091DBC24"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_39450CEFCFACE02EFD07468BFF2DE9AB"
         "OwnerKey" = "8:_6B64740B85284CA89D516BA2091DBC24"
         "MsmSig" = "8:_UNDEFINED"
@@ -33,6 +27,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_753B4D82870A4436B1A2E662580D2485"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_8ABE3ED1A08FC430FB8D5325A0ECF407"
         "OwnerKey" = "8:_6B64740B85284CA89D516BA2091DBC24"
         "MsmSig" = "8:_UNDEFINED"
@@ -40,7 +40,7 @@
         "Entry"
         {
         "MsmKey" = "8:_ACC76E5F40BCDC977615F773EEA8F95F"
-        "OwnerKey" = "8:_07214FA7B0BC1A67B5D91BE295145389"
+        "OwnerKey" = "8:_F05E75CAA745D06F6C55814B0D9757F4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -53,6 +53,18 @@
         {
         "MsmKey" = "8:_B038EA222CB9488B9B588C60AFEE9371"
         "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E0BC42EC08D1664BCF0E23B56D5445E5"
+        "OwnerKey" = "8:_ACC76E5F40BCDC977615F773EEA8F95F"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F05E75CAA745D06F6C55814B0D9757F4"
+        "OwnerKey" = "8:_6B64740B85284CA89D516BA2091DBC24"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -76,7 +88,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F1CEFB89A1B868A50B09DD9C02C0E742"
+        "OwnerKey" = "8:_6B64740B85284CA89D516BA2091DBC24"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -88,19 +100,19 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_F05E75CAA745D06F6C55814B0D9757F4"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_ACC76E5F40BCDC977615F773EEA8F95F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_07214FA7B0BC1A67B5D91BE295145389"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_6B64740B85284CA89D516BA2091DBC24"
+        "OwnerKey" = "8:_F1CEFB89A1B868A50B09DD9C02C0E742"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -208,32 +220,6 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_07214FA7B0BC1A67B5D91BE295145389"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304"
-                "ScatterAssemblies"
-                {
-                }
-            "SourcePath" = "8:FlashControlV71.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_9BDB4052DBBF426DB9898135138213F0"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_39450CEFCFACE02EFD07468BFF2DE9AB"
             {
             "AssemblyRegister" = "3:1"
@@ -265,13 +251,38 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_753B4D82870A4436B1A2E662580D2485"
+            {
+            "SourcePath" = "8:..\\AgenteFR\\Images\\agentes.ico"
+            "TargetName" = "8:agentes.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_9BDB4052DBBF426DB9898135138213F0"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8ABE3ED1A08FC430FB8D5325A0ECF407"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:CrystalDecisions.ReportAppServer.Prompting, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:CrystalDecisions.ReportAppServer.Prompting, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
+                    "_8ABE3ED1A08FC430FB8D5325A0ECF407"
+                    {
+                    "Name" = "8:CrystalDecisions.ReportAppServer.Prompting.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:CrystalDecisions.ReportAppServer.Prompting.dll"
             "TargetName" = "8:"
@@ -295,9 +306,14 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304"
+            "AssemblyAsmDisplayName" = "8:ShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
+                    "_ACC76E5F40BCDC977615F773EEA8F95F"
+                    {
+                    "Name" = "8:ShockwaveFlashObjects.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:ShockwaveFlashObjects.dll"
             "TargetName" = "8:"
@@ -337,6 +353,57 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E0BC42EC08D1664BCF0E23B56D5445E5"
+            {
+            "SourcePath" = "8:Flash.ocx"
+            "TargetName" = "8:Flash.ocx"
+            "Tag" = "8:"
+            "Folder" = "8:_9BDB4052DBBF426DB9898135138213F0"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F05E75CAA745D06F6C55814B0D9757F4"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_F05E75CAA745D06F6C55814B0D9757F4"
+                    {
+                    "Name" = "8:AxShockwaveFlashObjects.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:AxShockwaveFlashObjects.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_9BDB4052DBBF426DB9898135138213F0"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F1CEFB89A1B868A50B09DD9C02C0E742"
             {
             "AssemblyRegister" = "3:1"
@@ -344,6 +411,11 @@
             "AssemblyAsmDisplayName" = "8:stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
+                    "_F1CEFB89A1B868A50B09DD9C02C0E742"
+                    {
+                    "Name" = "8:stdole.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:stdole.dll"
             "TargetName" = "8:"
@@ -551,7 +623,7 @@
             "Target" = "8:_6B64740B85284CA89D516BA2091DBC24"
             "Folder" = "8:_B095C2EE54F941F2887D445C6925FD41"
             "WorkingFolder" = "8:_9BDB4052DBBF426DB9898135138213F0"
-            "Icon" = "8:_B038EA222CB9488B9B588C60AFEE9371"
+            "Icon" = "8:_753B4D82870A4436B1A2E662580D2485"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_CE8C5C42D20040648BB667AF31ECF896"
@@ -565,7 +637,7 @@
             "Target" = "8:_6B64740B85284CA89D516BA2091DBC24"
             "Folder" = "8:_DEE308FDA67748588A2338FB55E9F57D"
             "WorkingFolder" = "8:_9BDB4052DBBF426DB9898135138213F0"
-            "Icon" = "8:_B038EA222CB9488B9B588C60AFEE9371"
+            "Icon" = "8:_753B4D82870A4436B1A2E662580D2485"
             "Feature" = "8:"
             }
         }

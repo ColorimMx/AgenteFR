@@ -49,7 +49,7 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Images\Mariposa.ico</ApplicationIcon>
+    <ApplicationIcon>Images\agentes.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
@@ -520,6 +520,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Images\ajax-loader-blue-2.gif" />
+    <Content Include="Images\agentes.ico" />
     <Content Include="Images\Mariposa.ico" />
   </ItemGroup>
   <ItemGroup>
