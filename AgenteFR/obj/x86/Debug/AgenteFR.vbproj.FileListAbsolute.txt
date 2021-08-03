@@ -58,35 +58,95 @@ C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1
 C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.vbproj.GenerateResource.Cache
 C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.VenDetPed.resources
 C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.VenEstFac.resources
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\obj\x86\Debug\AgenteFR.exe
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\obj\x86\Debug\AgenteFR.xml
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\obj\x86\Debug\AgenteFR.pdb
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\bin\Debug\AgenteFR.exe
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\bin\Debug\AgenteFR.pdb
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\bin\Debug\AgenteFR.xml
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\obj\x86\Debug\AgenteFR.vbprojResolveAssemblyReference.cache
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\obj\x86\Debug\AgenteFR.CobDetCli.resources
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\obj\x86\Debug\AgenteFR.CobDetForPag.resources
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\obj\x86\Debug\AgenteFR.CobDetOri.resources
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\obj\x86\Debug\AgenteFR.CobDetPri.resources
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\obj\x86\Debug\AgenteFR.CobGenCli.resources
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\obj\x86\Debug\AgenteFR.CobGenForPag.resources
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\obj\x86\Debug\AgenteFR.CobGenOri.resources
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\obj\x86\Debug\AgenteFR.CobGenPri.resources
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\obj\x86\Debug\AgenteFR.InvExiCodPro.resources
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\obj\x86\Debug\AgenteFR.InvExiGen.resources
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\obj\x86\Debug\AgenteFR.FrGrafCliRan.resources
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\obj\x86\Debug\AgenteFR.FrGrafRanCli.resources
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\obj\x86\Debug\AgenteFR.FrVenCliRan.resources
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\obj\x86\Debug\AgenteFR.FrVenRanCli.resources
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\obj\x86\Debug\AgenteFR.FrVenTab.resources
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\obj\x86\Debug\AgenteFR.VenCliFic.resources
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\obj\x86\Debug\AgenteFR.VenDetPed.resources
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\obj\x86\Debug\AgenteFR.VenDetVen.resources
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\obj\x86\Debug\AgenteFR.VenEstFac.resources
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\obj\x86\Debug\AgenteFR.VenPedDetUni.resources
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\obj\x86\Debug\AgenteFR.Load.resources
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\obj\x86\Debug\AgenteFR.MenuR.resources
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\obj\x86\Debug\AgenteFR.Resources.resources
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\obj\x86\Debug\AgenteFR.vbproj.GenerateResource.Cache
-C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR V1.02\AgenteFR\bin\Debug\AgenteFR.exe.config
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\obj\x86\Debug\AgenteFR.exe
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\obj\x86\Debug\AgenteFR.xml
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\obj\x86\Debug\AgenteFR.pdb
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\bin\Debug\AgenteFR.exe
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\bin\Debug\AgenteFR.pdb
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\bin\Debug\AgenteFR.xml
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\obj\x86\Debug\AgenteFR.vbprojResolveAssemblyReference.cache
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\obj\x86\Debug\AgenteFR.CobDetCli.resources
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\obj\x86\Debug\AgenteFR.CobDetForPag.resources
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\obj\x86\Debug\AgenteFR.CobDetOri.resources
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\obj\x86\Debug\AgenteFR.CobDetPri.resources
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\obj\x86\Debug\AgenteFR.CobGenCli.resources
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\obj\x86\Debug\AgenteFR.CobGenForPag.resources
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\obj\x86\Debug\AgenteFR.CobGenOri.resources
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\obj\x86\Debug\AgenteFR.CobGenPri.resources
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\obj\x86\Debug\AgenteFR.InvExiCodPro.resources
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\obj\x86\Debug\AgenteFR.InvExiGen.resources
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\obj\x86\Debug\AgenteFR.FrGrafCliRan.resources
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\obj\x86\Debug\AgenteFR.FrGrafRanCli.resources
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\obj\x86\Debug\AgenteFR.FrVenCliRan.resources
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\obj\x86\Debug\AgenteFR.FrVenRanCli.resources
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\obj\x86\Debug\AgenteFR.FrVenTab.resources
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\obj\x86\Debug\AgenteFR.VenCliFic.resources
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\obj\x86\Debug\AgenteFR.VenDetPed.resources
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\obj\x86\Debug\AgenteFR.VenDetVen.resources
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\obj\x86\Debug\AgenteFR.VenEstFac.resources
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\obj\x86\Debug\AgenteFR.VenPedDetUni.resources
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\obj\x86\Debug\AgenteFR.Load.resources
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\obj\x86\Debug\AgenteFR.MenuR.resources
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\obj\x86\Debug\AgenteFR.Resources.resources
+C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02 - copia\AgenteFR\obj\x86\Debug\AgenteFR.vbproj.GenerateResource.Cache
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.exe
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.xml
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.pdb
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\bin\Debug\AgenteFR.exe
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\bin\Debug\AgenteFR.pdb
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\bin\Debug\AgenteFR.xml
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.vbprojResolveAssemblyReference.cache
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.CobDetCli.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.CobDetForPag.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.CobDetOri.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.CobDetPri.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.CobGenCli.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.CobGenForPag.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.CobGenOri.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.CobGenPri.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.InvExiCodPro.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.InvExiGen.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.FrGrafCliRan.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.FrGrafRanCli.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.FrVenCliRan.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.FrVenRanCli.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.FrVenTab.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.VenCliFic.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.VenDetPed.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.VenDetVen.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.VenEstFac.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.VenPedDetUni.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.Load.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.MenuR.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.Resources.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR065 V1.02\AgenteFR\obj\x86\Debug\AgenteFR.vbproj.GenerateResource.Cache
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\obj\x86\Debug\AgenteFR.exe
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\obj\x86\Debug\AgenteFR.xml
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\obj\x86\Debug\AgenteFR.pdb
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\bin\Debug\AgenteFR.exe
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\bin\Debug\AgenteFR.pdb
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\bin\Debug\AgenteFR.xml
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\obj\x86\Debug\AgenteFR.CobDetCli.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\obj\x86\Debug\AgenteFR.CobDetForPag.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\obj\x86\Debug\AgenteFR.CobDetOri.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\obj\x86\Debug\AgenteFR.CobDetPri.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\obj\x86\Debug\AgenteFR.CobGenCli.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\obj\x86\Debug\AgenteFR.CobGenForPag.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\obj\x86\Debug\AgenteFR.CobGenOri.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\obj\x86\Debug\AgenteFR.CobGenPri.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\obj\x86\Debug\AgenteFR.InvExiCodPro.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\obj\x86\Debug\AgenteFR.InvExiGen.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\obj\x86\Debug\AgenteFR.FrGrafCliRan.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\obj\x86\Debug\AgenteFR.FrGrafRanCli.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\obj\x86\Debug\AgenteFR.FrVenCliRan.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\obj\x86\Debug\AgenteFR.FrVenRanCli.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\obj\x86\Debug\AgenteFR.FrVenTab.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\obj\x86\Debug\AgenteFR.VenCliFic.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\obj\x86\Debug\AgenteFR.VenDetPed.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\obj\x86\Debug\AgenteFR.VenDetVen.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\obj\x86\Debug\AgenteFR.VenEstFac.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\obj\x86\Debug\AgenteFR.VenPedDetUni.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\obj\x86\Debug\AgenteFR.Load.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\obj\x86\Debug\AgenteFR.MenuR.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\obj\x86\Debug\AgenteFR.Resources.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\AgenteFR\AgenteFR\obj\x86\Debug\AgenteFR.vbproj.GenerateResource.Cache
